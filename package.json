@@ -1,0 +1,32 @@
+{
+  "name": "computer-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craz3r/computer-store.git"
+  },
+  "author": "Nikita Sigow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craz3r/computer-store/issues"
+  },
+  "homepage": "https://github.com/craz3r/computer-store#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-watch": "^4.3.11",
+    "imagemin-pngquant": "^5.0.0"
+  }
+}

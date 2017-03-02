@@ -1,0 +1,83 @@
+.store-gallery {
+	padding: 40px 0;
+
+	&__title {
+		font-size: 42px;
+		line-height: 50px;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: stretch;
+	}
+
+	&__item {
+		margin-bottom: 20px;
+		padding-top: 270px;
+		max-width: 270px;
+		background-color: #000;
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.perf {
+		background-image: url("../img/pc1.jpg");
+	}
+
+	.enth {
+		background-image: url("../img/pc6.jpg");
+	}
+
+	.spec {
+		background-image: url("../img/pc3.jpg");
+	}
+
+	.excl {
+		background-image: url("../img/pc4.jpg");
+	}
+
+	&__description {
+		background: $panel-bg;
+		padding: 37px;
+	}
+}
+
+.description {
+	&__head {
+		text-transform: uppercase;
+		font-size: 23px;
+		line-height: 31px;
+		font-family: sans-serif;
+		font-weight: normal;
+	}
+
+	&__text {
+		margin-top: 5px;
+		font-size: 16px;
+		color: $store-desc-color;
+		padding-bottom: 5px;
+		border-bottom: 1px solid $store-desc-color;
+	}
+
+	&__price {
+		margin-top: 10px;
+		color: $store-desc-color;
+
+		span {
+			color: $secondary-color;
+		}
+	}
+}
+
+.gallery-item__btn {
+	font-size: 16px;
+	padding: 10px 15px;
+	margin-top: 10px;
+
+	&:hover {
+		transform: none;
+	}
+}

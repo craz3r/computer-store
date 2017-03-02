@@ -1,0 +1,40 @@
+.features {
+	padding: 40px 0;
+
+	&__title {
+		text-align: left;
+		font-size: 42px;
+		line-height: 50px;
+		margin-bottom: 25px;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+		margin-right: 20px;
+		margin-bottom: 35px;
+		width: 30%;
+		text-align: center;
+		padding: 25px 0;
+		background: $panel-bg;
+		transition: all .3s ease-in;
+
+		span {
+			color: #fff;
+		}
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+
+	&__text {
+		padding: 15px;
+		cursor: default;
+		margin-top: 15px;
+	}
+}

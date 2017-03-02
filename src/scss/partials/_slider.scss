@@ -1,0 +1,61 @@
+.slider__item {
+	display: block;
+	max-height: 450px;
+
+	img {
+		max-width: 100%;
+	}
+
+}
+
+.owl-carousel {
+	position: relative;
+	z-index: 10;
+}
+
+.left,
+.right {
+	position: absolute;
+	top: 50%;
+	z-index: 999;
+	color: rgba(255,255,255,0.5);
+	transition: color .3s ease-in;
+
+	&:hover {
+		cursor: pointer;
+		color: rgba(255,255,255,0.7);
+	}
+}
+
+.left {
+	left: 1%;
+}
+
+.right {
+	right: 1%
+}
+
+.owl-dots {
+	height: 20px;
+	text-align: center;
+	position: absolute;
+	z-index: 100;
+	top: 102%;
+	left: 45%;
+
+	.owl-dot {
+		height: 15px;
+		width: 15px;
+		border-radius: 50%;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 0 10px;
+		background: $main-color;
+		transition: all .3s ease-in;
+	}
+
+	.active {
+		background: transparent;
+		box-shadow: 0 0 0 2px $main-color;
+	}
+}

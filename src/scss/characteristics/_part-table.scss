@@ -1,0 +1,45 @@
+.model {
+	&__name {
+		text-align: left;
+		color: $secondary-color;
+		font-size: 42px;
+		line-height: 50px;
+	}
+}
+
+.props-table {
+	width: 100%;
+	text-align: left;
+	color: $store-desc-color;
+
+	&__name {
+		text-align: left;
+		padding: 20px 0;
+		font-weight: bold;
+		font-size: 26px;
+		color: $secondary-color;
+	}
+
+	&__group {
+		color: $secondary-color;
+	}
+
+	td:first-child {
+		max-width: 0;
+		width: 20%;
+		word-wrap: break-word;
+	}
+
+	td,th {
+		padding: 10px;
+		vertical-align: top;
+	}
+}
+
+.odd {
+	background: $panel-bg;
+}
+
+.even {
+	background: #000;
+}

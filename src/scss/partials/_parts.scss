@@ -1,0 +1,37 @@
+.parts {
+	margin-left: 40px;
+
+	&__list {
+		display: flex;
+		flex-flow: wrap;
+		-ms-flex-flow: wrap;
+		justify-content: flex-start;
+	}
+
+	&__item {
+		margin-bottom: 15px;
+		margin-right: 5px;
+		text-align: center;
+		background: $panel-bg;
+
+		&--small {
+			width: 200px;
+		}
+
+		&--big {
+			width: 425px;
+			margin-right: 25px;
+		}
+	}
+}
+
+.img-sm {
+	width: 200px;
+	height: auto;
+}
+
+.img-lg {
+	width: 425px;
+	height: 350px;
+}
+

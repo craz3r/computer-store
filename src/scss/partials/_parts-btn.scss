@@ -1,0 +1,15 @@
+.parts-btn {
+	font-size: 12px;
+	padding: 10px 0;
+	display: block;
+	margin-top: 10px;
+
+	&:hover {
+		transform: none;
+	}
+
+	&--pricebuy {
+		margin: 0;
+		padding: 10px 20px;
+	}
+}
