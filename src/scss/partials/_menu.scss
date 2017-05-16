@@ -17,7 +17,7 @@
 		&:last-child a {
 			border-bottom: none;
 		}
-		
+
 		a {
 			display: block;
 			width: 100%;
@@ -27,26 +27,8 @@
 			vertical-align: middle;
 			transition: all .3s ease-in;
 
-			&::after {
-				display: inline-block;
-				content: "";
-				width: 12px;
-				height: 12px;
-				margin-left: 20px;
-				border-bottom: 2px solid $main-color;
-				border-left: 2px solid $main-color;
-				float: right;
-				vertical-align: middle;
-				transform: rotate(-45deg);
-				transition: all .3s ease-in;
-			}
-
 			&:hover {
 				color: rgba(255,255,255,0.5);
-
-				&::after {
-					border-color: rgba(255,255,255,0.5);
-				}
 			}
 		}
 
@@ -54,17 +36,8 @@
 			a {
 				color: $secondary-color;
 
-				&::after {
-					border-color: $secondary-color;
-					transform: rotate(225deg);
-				}
-
 				&:hover {
 					color: $secondary-color;
-
-					&::after {
-						border-color: $secondary-color;
-					}
 				}
 			}
 		}
